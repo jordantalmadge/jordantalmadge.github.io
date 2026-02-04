@@ -10,7 +10,14 @@
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
-		/* in-file CSS here */
+
+		textarea{
+			border: none;
+			padding: 5px;
+			background-color: lightgray;
+
+		}
+		
 	</style>
 
 
@@ -20,7 +27,15 @@
 	<h1>Code Log 1: HTML Semanitc Tags</h1>
     <hr>
 	<h3>What is the difference between non-semantic and semantic tags in HTML?</h3>
-	<p>Answer goes here.</p>
+	<p>A semantic tag is a keyworded tag that describes what content is going to be placed in that tag. For instance, a header tag looks different by using semantic tags then not using them. A semantic tag looks like this...</p>
+	<textarea cols="50" rows="3">
+	<header>This is a header</header>
+	</textarea>
+	<p>...while a non semantic tag would look like this...</p>
+	<textarea cols="50" rows="3">
+	<div id="header">This is a header</div>
+	</textarea>
+	<p>One is definitely easier to read and the difference should be apperent.</p>
 	<hr>
 	<h3>What are two (or more) benefits of using semantic tags?</h3>
 	<p>There are several benefits to using semantic tags over not using them. For one thing, it makes the website easier to read both by computers and programmers alike. Trying to read the different div tags that you would need to have a HTML page without semantic tags would get messy really fast. It wouldn't be impossible to read, but it would certainly make it harder to read. Semantic tags by contrast make the website easy to read and follow along with. Another benefit of using semantic tags is that it is more accessible. Screen readers and other assistive technologies find it much easier to read semantic tags rather than non-semantic tags.</p>
